@@ -1,0 +1,90 @@
+/* establish font for website */
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  /* navbar */
+  nav {
+    font-size: 1rem;
+  }
+  /* name on navbar */
+  .nav-name {
+    background-color: rgb(81, 160, 155);
+    font-weight: bold;
+    width: fit-content;
+    margin: 0 0 5px 5px;
+    padding: 10px 0px;
+  }
+  /* main section of body */
+  main {
+    padding-top: 4.5rem;
+    padding-bottom: 7rem;
+    background-image: url("./images/ignasi_pattern_s.png");
+  }
+  /* bio paragraph */
+  p {
+    font-size: 1rem;
+  }
+  /* title of each page */
+  h1 {
+    color: rgb(81, 160, 155);
+    font-size: 2em;
+    font-weight: 800;
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+  }
+  /* bio image styling */
+  #headshot {
+    float: left;
+    padding: 1px;
+    margin: 0px 10px 2px 0px;
+    width: 250px;
+    height: auto;
+    max-width: 65%;
+  }
+  /* blank image place holder */
+  .blank {
+    width: 500px;
+    max-width: 100%;
+  }
+  
+  /* icon inside text box */
+  .inside-icon {
+    background-image: url(./images/icon.png);
+    background-position: 97%;
+    background-size: 1rem;
+    background-repeat: no-repeat;
+  }
+  /* button styling */
+  button {
+    padding: 1rem 2rem;
+    background-color: rgb(81, 160, 155);
+    border: rgb(81, 160, 155);
+    color: white;
+  }
+  /* footer styling */
+  footer {
+    font-size: 1rem;
+    background-color: rgb(91, 91, 91);
+    color: rgb(98, 105, 115);
+    text-align: center;
+    padding: 20px;
+    border-top: rgb(81, 160, 155) solid 5px;
+    margin: 0pt;
+  }
+  #icon {
+    width: 3em;
+  }
+  .card {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .card h5 {
+    color: rgb(81, 160, 155);
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .card a {
+    color: black;
+  }
+  
