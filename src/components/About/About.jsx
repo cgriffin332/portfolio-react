@@ -12,7 +12,11 @@ const About = () => {
           <div className="row">
             <div className="col-12 bg-white">
               {/* <!-- page title --> */}
-              <a href="https://github.com/cgriffin332/" rel="noreferrer" target="_blank">
+              <a
+                href="https://github.com/cgriffin332/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img
                   id="icon"
                   className="float-right mx-2"
@@ -22,7 +26,8 @@ const About = () => {
               </a>
               <a
                 href="https://www.linkedin.com/in/calvin-griffin-8247521b7/"
-                rel="noreferrer" target="_blank"
+                rel="noreferrer"
+                target="_blank"
               >
                 <img
                   id="icon"
@@ -35,11 +40,7 @@ const About = () => {
             </div>
             <div className="col-12 p-3 bg-white">
               {/* <!-- headshot --> */}
-              <img
-                id="headshot"
-                src={Headshot}
-                alt="Calvin Griffin"
-              />
+              <img id="headshot" src={Headshot} alt="Calvin Griffin" />
               {/* <!-- bio info --> */}
               <p>
                 My name is Calvin Griffin and I am a new web developer
