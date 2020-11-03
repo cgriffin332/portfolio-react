@@ -39,7 +39,7 @@ const Header = () => {
               {/* <!-- active page --> */}
               <li className="nav-item ml-auto active">
                 {/* <!-- link to about page --> */}
-                <Link className="nav-link" to="/about">
+                <Link className="nav-link" to="/">
                   About
                 </Link>
               </li>
