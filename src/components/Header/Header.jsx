@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Header.css"
 
 const Header = () => {
   return (
@@ -37,7 +38,7 @@ const Header = () => {
                 </Link>
               </li>
               {/* <!-- active page --> */}
-              <li className="nav-item ml-auto active">
+              <li className="nav-item ml-auto">
                 {/* <!-- link to about page --> */}
                 <Link className="nav-link" to="/">
                   About
