@@ -5,37 +5,37 @@ const About = () => {
     <div>
       <main>
         {/* <!-- container --> */}
-        <section class="container col-11 col-sm-7 col-lg-8 p-4 m-3 mx-auto bg-white">
-          <div class="row">
-            <div class="col-12 bg-white">
+        <section className="container col-11 col-sm-7 col-lg-8 p-4 m-3 mx-auto bg-white">
+          <div className="row">
+            <div className="col-12 bg-white">
               {/* <!-- page title --> */}
-              <a href="https://github.com/cgriffin332" target="_blank">
+              <a href="https://github.com/cgriffin332" rel="noreferrer" target="_blank">
                 <img
                   id="icon"
-                  class="float-right mx-2"
-                  src="./assets/images/github-icon_3.png"
+                  className="float-right mx-2"
+                  src="../../images/github-icon_3.png"
                   alt="github icon"
                 />
               </a>
               <a
                 href="https://www.linkedin.com/in/calvin-griffin-8247521b7/"
-                target="_blank"
+                rel="noreferrer" target="_blank"
               >
                 <img
                   id="icon"
-                  class="float-right"
-                  src="./assets/images/linkedin-icon_3.png"
+                  className="float-right"
+                  src="./images/linkedin-icon_3.png"
                   alt="linkedin icon"
                 />
               </a>
               <h1>About Me</h1>
             </div>
-            <div class="col-12 p-3 bg-white">
+            <div className="col-12 p-3 bg-white">
               {/* <!-- headshot --> */}
               <img
                 id="headshot"
-                src="./assets/images/smile.png"
-                alt="Picture of me"
+                src="../images/smile.png"
+                alt="Calvin Griffin"
               />
               {/* <!-- bio info --> */}
               <p>
