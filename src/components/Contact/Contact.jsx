@@ -2,6 +2,7 @@ import React from "react";
 import gIcon from "../../images/github-icon_3.png";
 import lIcon from "../../images/linkedin-icon_3.png";
 
+
 const Contact = () => {
   return (
     <div>

@@ -1,4 +1,12 @@
 import React from "react";
+import gIcon from "../../images/github-icon_3.png";
+import lIcon from "../../images/linkedin-icon_3.png";
+import Burger from "../../images/burger3.png";
+import Gifted from "../../images/gifted.png";
+import Weather from "../../images/weather.png";
+import Workweek from "../../images/workweek.png";
+import Quiz from "../../images/wrong.png";
+import DateNight from "../../images/datenight.png";
 
 const Portfolio = () => {
   return (
@@ -13,7 +21,7 @@ const Portfolio = () => {
               <img
                 id="icon"
                 className="float-right mx-2"
-                src="./assets/images/github-icon_3.png"
+                src={gIcon}
                 alt="github icon"
               />
             </a>
@@ -25,7 +33,7 @@ const Portfolio = () => {
               <img
                 id="icon"
                 className="float-right"
-                src="./assets/images/linkedin-icon_3.png"
+                src={lIcon}
                 alt="linkedin icon"
               />
             </a>
@@ -40,7 +48,7 @@ const Portfolio = () => {
               <a href="https://burger-time332.herokuapp.com/" rel="noreferrer" target="_blank">
                 <img
                   className="card-img-top"
-                  src="./assets/images/burger3.png"
+                  src={Burger}
                   alt="Card image cap"
                 />
               </a>
@@ -63,7 +71,7 @@ const Portfolio = () => {
               target="_blank">
                 <img
                   className="card-img-top"
-                  src="./assets/images/gifted.png"
+                  src={Gifted}
                   alt="Card image cap"
                 />
               </a>
@@ -89,7 +97,7 @@ const Portfolio = () => {
               >
                 <img
                   className="card-img-top"
-                  src="./assets/images/weather.png"
+                  src={Weather}
                   alt="Card image cap"
                 />
               </a>
@@ -115,7 +123,7 @@ const Portfolio = () => {
               >
                 <img
                   className="card-img-top"
-                  src="./assets/images/workweek.png"
+                  src={Workweek}
                   alt="Card image cap"
                 />
               </a>
@@ -143,7 +151,7 @@ const Portfolio = () => {
               >
                 <img
                   className="card-img-top"
-                  src="./assets/images/wrong.png"
+                  src={Quiz}
                   alt="Card image cap"
                 />
               </a>
@@ -169,7 +177,7 @@ const Portfolio = () => {
               >
                 <img
                   className="card-img-top"
-                  src="./assets/images/datenight.png"
+                  src={DateNight}
                   alt="Card image cap"
                 />
               </a>
