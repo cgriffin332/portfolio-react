@@ -1,4 +1,7 @@
 import React from "react";
+import Headshot from "../../images/smile.png";
+import gIcon from "../../images/github-icon_3.png";
+import lIcon from "../../images/linkedin-icon_3.png";
 
 const About = () => {
   return (
@@ -9,11 +12,11 @@ const About = () => {
           <div className="row">
             <div className="col-12 bg-white">
               {/* <!-- page title --> */}
-              <a href="https://github.com/cgriffin332" rel="noreferrer" target="_blank">
+              <a href="https://github.com/cgriffin332/" rel="noreferrer" target="_blank">
                 <img
                   id="icon"
                   className="float-right mx-2"
-                  src="../../images/github-icon_3.png"
+                  src={gIcon}
                   alt="github icon"
                 />
               </a>
@@ -24,7 +27,7 @@ const About = () => {
                 <img
                   id="icon"
                   className="float-right"
-                  src="./images/linkedin-icon_3.png"
+                  src={lIcon}
                   alt="linkedin icon"
                 />
               </a>
@@ -34,7 +37,7 @@ const About = () => {
               {/* <!-- headshot --> */}
               <img
                 id="headshot"
-                src="../images/smile.png"
+                src={Headshot}
                 alt="Calvin Griffin"
               />
               {/* <!-- bio info --> */}
