@@ -38,7 +38,7 @@ const Contact = () => {
               <a
                 className="text-dark float-right"
                 href="https://docs.google.com/document/d/15ZuKnC6Rd6-zxL8zG5k4jfUj6cL0JcDl_nTcH423B6I/edit?usp=sharing"
-                el="noreferrer"
+                rel="noreferrer"
                 target="_blank"
               >
                 View Resume

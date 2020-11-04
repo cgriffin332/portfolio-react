@@ -8,7 +8,7 @@ const Header = () => {
         {/* <!-- navbar --> */}
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           {/* <!-- name on navbar --> */}
-          <a className="navbar-brand nav-name text-white">Calvin Griffin</a>
+          <a href="/" className="navbar-brand nav-name text-white">Calvin Griffin</a>
           {/* <!-- collapse toggle button --> */}
           <button
             className="navbar-toggler"
