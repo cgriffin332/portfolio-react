@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
-const Header = (props) => {
+const Header = () => {
   return (
     <div>
       <header>
@@ -25,10 +24,11 @@ const Header = (props) => {
           {/* <!-- About, Portfolio, Contact links on right of navbar --> */}
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
+              {/* <!-- active page --> */}
               <li className="nav-item ml-auto">
-                {/* <!-- link to contact page --> */}
-                <Link className="nav-link" to="/contact">
-                  Contact
+                {/* <!-- link to about page --> */}
+                <Link className="nav-link" to="/">
+                  About
                 </Link>
               </li>
               <li className="nav-item ml-auto">
@@ -37,11 +37,10 @@ const Header = (props) => {
                   Portfolio
                 </Link>
               </li>
-              {/* <!-- active page --> */}
               <li className="nav-item ml-auto">
-                {/* <!-- link to about page --> */}
-                <Link className="nav-link" to="/">
-                  About
+                {/* <!-- link to contact page --> */}
+                <Link className="nav-link" to="/contact">
+                  Contact
                 </Link>
               </li>
             </ul>
