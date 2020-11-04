@@ -14,15 +14,39 @@ const Portfolio = () => {
     {
       href: "https://burger-time332.herokuapp.com/",
       image: Burger,
-      title: "Gifted",
+      title: "Burger Time",
       github: "https://github.com/cgriffin332/burger-time332",
     },
     {
       href: "https://gifted332.herokuapp.com/",
       image: Gifted,
-      title: "Burger Time",
+      title: "Gifted",
       github: "https://github.com/cgriffin332/gifted",
     },
+    {
+      href: "https://cgriffin332.github.io/Weather-Dashboard332/",
+      image: Weather,
+      title: "Weather Dashboard",
+      github: "https://github.com/cgriffin332/Weather-Dashboard332",
+    },
+    {
+      href: "https://cgriffin332.github.io/Work-Day-Scheduler332/",
+      image: Workweek,
+      title: "Work Day Planner",
+      github: "https://github.com/cgriffin332/Work-Day-Scheduler332",
+    },
+    {
+      href: "https://cgriffin332.github.io/Code-Quiz332/#",
+      image: Quiz,
+      title: "Code Quiz",
+      github: "https://github.com/cgriffin332/Code-Quiz332",
+    },
+    {
+      href: "https://cgriffin332.github.io/The-Date-Night-Planner/",
+      image: DateNight,
+      title: "Date Night Planner",
+      github: "https://github.com/cgriffin332/The-Date-Night-Planner",
+    }
   ];
   return (
     <div>
@@ -76,112 +100,32 @@ const Portfolio = () => {
             />
           </div>
           <div className="row">
-            <div className="col-lg-6 p-3 bg-white">
-              {/* <!-- project 1 --> */}
-              <div className="card">
-                <a
-                  href="https://cgriffin332.github.io/Weather-Dashboard332/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    className="card-img-top"
-                    src={Weather}
-                    alt="Card image cap"
-                  />
-                </a>
-                <div className="card-body">
-                  <h5 className="card-title">Weather Dashboard</h5>
-                  <a
-                    href="https://github.com/cgriffin332/Weather-Dashboard332"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Github Link
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 p-3 bg-white">
-              {/* <!-- project 2 --> */}
-              <div className="card">
-                <a
-                  href="https://cgriffin332.github.io/Work-Day-Scheduler332/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    className="card-img-top"
-                    src={Workweek}
-                    alt="Card image cap"
-                  />
-                </a>
-                <div className="card-body">
-                  <h5 className="card-title">Work Day Planner</h5>
-                  <a
-                    href="https://github.com/cgriffin332/Work-Day-Scheduler332"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Github Link
-                  </a>
-                </div>
-              </div>
-            </div>
+          <Project
+              href={projects[2].href}
+              image={projects[2].image}
+              title={projects[2].title}
+              github={projects[2].github}
+            />
+            <Project
+              href={projects[3].href}
+              image={projects[3].image}
+              title={projects[3].title}
+              github={projects[3].github}
+            />
           </div>
           <div className="row">
-            <div className="col-lg-6 p-3 bg-white">
-              {/* <!-- project 3 --> */}
-              <div className="card">
-                <a
-                  href="https://cgriffin332.github.io/Code-Quiz332/#"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    className="card-img-top"
-                    src={Quiz}
-                    alt="Card image cap"
-                  />
-                </a>
-                <div className="card-body">
-                  <h5 className="card-title">Code Quiz</h5>
-                  <a
-                    href="https://github.com/cgriffin332/Code-Quiz332"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Github Link
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 p-3 bg-white">
-              {/* <!-- project 4 --> */}
-              <div className="card">
-                <a
-                  href="https://cgriffin332.github.io/The-Date-Night-Planner/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    className="card-img-top"
-                    src={DateNight}
-                    alt="Card image cap"
-                  />
-                </a>
-                <div className="card-body">
-                  <h5 className="card-title">Date Night Planner</h5>
-                  <a
-                    href="https://github.com/cgriffin332/The-Date-Night-Planner"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Github Link
-                  </a>
-                </div>
-              </div>
-            </div>
+          <Project
+              href={projects[4].href}
+              image={projects[4].image}
+              title={projects[4].title}
+              github={projects[4].github}
+            />
+            <Project
+              href={projects[5].href}
+              image={projects[5].image}
+              title={projects[5].title}
+              github={projects[5].github}
+            />
           </div>
         </section>
       </main>
