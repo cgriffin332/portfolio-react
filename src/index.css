@@ -77,7 +77,7 @@ body {
   .card {
     text-align: center;
     width: 100%;
-    height: auto;
+    height: 100%;
   }
   .card h5 {
     color: rgb(81, 160, 155);

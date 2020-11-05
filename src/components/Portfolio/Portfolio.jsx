@@ -4,7 +4,7 @@ import gIcon from "../../images/github-icon_3.png";
 import lIcon from "../../images/linkedin-icon_3.png";
 import Burger from "../../images/burger3.png";
 import Gifted from "../../images/gifted.png";
-import Weather from "../../images/weather.png";
+import Weather from "../../images/weather1.png";
 import Employee from "../../images/react-employee1-1.png";
 import Quiz from "../../images/wrong.png";
 import DateNight from "../../images/datenight.png";
@@ -14,7 +14,7 @@ const Portfolio = () => {
     {
       href: "http://cgriffin332.github.io/react-employee-directory",
       image: Employee,
-      title: "React-Employee-Directory",
+      title: "Employee-Directory",
       github: "https://github.com/cgriffin332/react-employee-directory",
     },
     {
