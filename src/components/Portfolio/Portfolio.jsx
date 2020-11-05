@@ -5,12 +5,18 @@ import lIcon from "../../images/linkedin-icon_3.png";
 import Burger from "../../images/burger3.png";
 import Gifted from "../../images/gifted.png";
 import Weather from "../../images/weather.png";
-import Workweek from "../../images/workweek.png";
+import Employee from "../../images/react-employee1-1.png";
 import Quiz from "../../images/wrong.png";
 import DateNight from "../../images/datenight.png";
 
 const Portfolio = () => {
   const projects = [
+    {
+      href: "http://cgriffin332.github.io/react-employee-directory",
+      image: Employee,
+      title: "React-Employee-Directory",
+      github: "https://github.com/cgriffin332/react-employee-directory",
+    },
     {
       href: "https://burger-time332.herokuapp.com/",
       image: Burger,
@@ -28,12 +34,6 @@ const Portfolio = () => {
       image: Weather,
       title: "Weather Dashboard",
       github: "https://github.com/cgriffin332/Weather-Dashboard332",
-    },
-    {
-      href: "https://cgriffin332.github.io/Work-Day-Scheduler332/",
-      image: Workweek,
-      title: "Work Day Planner",
-      github: "https://github.com/cgriffin332/Work-Day-Scheduler332",
     },
     {
       href: "https://cgriffin332.github.io/Code-Quiz332/#",
