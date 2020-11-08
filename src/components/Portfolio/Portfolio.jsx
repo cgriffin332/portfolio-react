@@ -6,11 +6,17 @@ import Burger from "../../images/burger3.png";
 import Gifted from "../../images/gifted.png";
 import Weather from "../../images/weather1.png";
 import Employee from "../../images/react-employee1-1.png";
-import Quiz from "../../images/wrong.png";
+import Books from "../../images/books1.png";
 import DateNight from "../../images/datenight.png";
 
 const Portfolio = () => {
   const projects = [
+    {
+      href: "https://google-book-search332.herokuapp.com/",
+      image: Books,
+      title: "Google Books Search",
+      github: "https://github.com/cgriffin332/google-books-search332",
+    },
     {
       href: "http://cgriffin332.github.io/react-employee-directory",
       image: Employee,
@@ -34,12 +40,6 @@ const Portfolio = () => {
       image: Weather,
       title: "Weather Dashboard",
       github: "https://github.com/cgriffin332/Weather-Dashboard332",
-    },
-    {
-      href: "https://cgriffin332.github.io/Code-Quiz332/#",
-      image: Quiz,
-      title: "Code Quiz",
-      github: "https://github.com/cgriffin332/Code-Quiz332",
     },
     {
       href: "https://cgriffin332.github.io/The-Date-Night-Planner/",
