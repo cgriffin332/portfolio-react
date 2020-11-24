@@ -7,10 +7,16 @@ import Gifted from "../../images/gifted.png";
 import Weather from "../../images/weather1.png";
 import Employee from "../../images/react-employee1-1.png";
 import Books from "../../images/books1.png";
-import DateNight from "../../images/datenight.png";
+import Ciphr from "../../images/ciphr.png";
 
 const Portfolio = () => {
   const projects = [
+    {
+      href: "https://ciphr.herokuapp.com/",
+      image: Ciphr,
+      title: "Ciphr",
+      github: "https://github.com/zachdrummond/ciphr",
+    },
     {
       href: "https://google-book-search332.herokuapp.com/",
       image: Books,
@@ -40,12 +46,6 @@ const Portfolio = () => {
       image: Weather,
       title: "Weather Dashboard",
       github: "https://github.com/cgriffin332/Weather-Dashboard332",
-    },
-    {
-      href: "https://cgriffin332.github.io/The-Date-Night-Planner/",
-      image: DateNight,
-      title: "Date Night Planner",
-      github: "https://github.com/cgriffin332/The-Date-Night-Planner",
     }
   ];
   return (
