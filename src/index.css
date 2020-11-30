@@ -85,6 +85,9 @@ body {
     font-weight: bold;
   }
   .card a {
-    color: black;
+    color: rgb(81, 160, 155);;
+    text-decoration: underline;
   }
-  
+  .left {
+    text-align: left;
+  }
