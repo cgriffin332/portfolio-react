@@ -12,7 +12,7 @@ import Ciphr from "../../images/ciphr.png";
 const Portfolio = () => {
   const projects = [
     {
-      href: "https://ciphr.herokuapp.com/",
+      href: "https://ciphr.dev/",
       image: Ciphr,
       title: "Ciphr",
       github: "https://github.com/zachdrummond/ciphr",
